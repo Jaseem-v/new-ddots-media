@@ -3109,389 +3109,6 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
     opacity: 1
 }
 
-@media only screen and (max-width :1200px) {
-    .hero-header p {
-        padding: 0 120px
-    }
-
-    .case-studies .case-study-preview img {
-        width: 90%
-    }
-}
-
-@media all and (min-width:768px) {
-    .nav-item .dropdown-menu {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 125%
-    }
-
-    .nav-item .dropdown-menu:before {
-        content: '';
-        width: 0;
-        height: 0;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-        border-bottom: 10px solid #fff;
-        position: absolute;
-        top: -10px;
-        left: 50%;
-        transform: translateX(-50%)
-    }
-
-    .dropdown-menu {
-        display: block;
-        opacity: 0;
-        visibility: hidden;
-        margin-top: 0;
-        -webkit-transition: .2s;
-        -moz-transition: .2s;
-        -o-transition: .2s;
-        transition: all .2s ease
-    }
-
-    .nav-item:hover .dropdown-menu {
-        visibility: visible;
-        opacity: 1;
-        top: 175%
-    }
-}
-
-@media only screen and (max-width :992px) {
-
-    .hero-header .partners h5:after,
-    .hero-header .partners h5:before {
-        content: none
-    }
-
-    .case-studies {
-        text-align: center
-    }
-
-    .recent-posts .col-lg-4 {
-        margin-bottom: 30px
-    }
-
-    .case-studies .case-study-preview img {
-        width: auto
-    }
-
-    .footer {
-        text-align: center !important
-    }
-
-    .footer ul {
-        justify-content: center;
-        margin-top: 50px
-    }
-
-    .footer ul li:first-child a {
-        margin-left: 0
-    }
-
-    nav.navbar li a {
-        padding: 0 10px !important
-    }
-
-    nav.navbar li a.nav-btn {
-        font-size: 14px;
-        padding: 8px 20px !important
-    }
-
-    .testimonials .col-lg-4 {
-        margin-bottom: 30px
-    }
-
-    .testimonials h2 span:after {
-        content: none
-    }
-
-    .testimonial-slider .slick-dots {
-        margin-top: 20px
-    }
-
-    .pdf-intro .slick-dots {
-        margin: 0
-    }
-
-    .footer ul.social-links {
-        justify-content: center
-    }
-
-    .footer ul.menu {
-        margin-bottom: 30px
-    }
-
-    .footer .wpengine {
-        display: block;
-        margin-bottom: 10px
-    }
-
-    .footer .upcity {
-        display: block;
-        margin-bottom: 50px
-    }
-
-    .footer .sub-footer ul.menu {
-        justify-content: center;
-        margin-top: 10px
-    }
-
-    .footer .sub-footer ul.menu li a {
-        margin: 0 10px
-    }
-
-    .what-we-do .services {
-        padding: 25px 0
-    }
-
-    .what-we-do .services .service {
-        padding: 25px 50px
-    }
-
-    .cta-wrap {
-        padding: 50px 30px
-    }
-}
-
-@media only screen and (max-width :768px) {
-    .navbar .dropdown-menu {
-        display: none;
-        padding: 10px;
-        margin-top: 0;
-        transition: none;
-        width: 100%;
-        background: 0 0
-    }
-
-    .nav-item:hover .dropdown-menu {
-        display: none
-    }
-
-    .navbar-nav .dropdown-menu .nav-item {
-        width: 100%
-    }
-
-    .navbar-nav .dropdown-menu .dropdown-item span {
-        justify-content: center
-    }
-
-    .navbar .dropdown {
-        position: relative
-    }
-
-    .dropdown-toggle::after {
-        display: none
-    }
-
-    .navbar-dark .navbar-toggler {
-        border: none
-    }
-
-    .navbar-nav {
-        width: 100%
-    }
-
-    .navbar-collapse {
-        opacity: 0;
-        background: #25344f;
-        position: fixed;
-        text-align: center;
-        width: 100% !important;
-        padding: 0 30px 0 0;
-        left: 0;
-        top: 0;
-        z-index: 9999;
-        min-height: 100vh;
-        display: flex !important;
-        pointer-events: none;
-        flex-direction: column;
-        justify-content: center;
-        -webkit-transition: .3s;
-        -moz-transition: .3s;
-        -o-transition: .3s;
-        transition: all .3s ease
-    }
-
-    .navbar-collapse.show {
-        opacity: 1;
-        pointer-events: all;
-        padding: 0 30px
-    }
-
-    .navbar-collapse .navbar-brand {
-        display: block !important;
-        position: absolute;
-        top: 52px;
-        left: 22px
-    }
-
-    .navbar-collapse .navbar-toggler {
-        display: block !important;
-        position: absolute;
-        top: 65px;
-        right: 25px
-    }
-
-    .navbar-collapse .navbar-toggler i {
-        font-size: 32px
-    }
-
-    .navbar-collapse .navbar-nav .dropdown-menu {
-        display: block !important;
-        background: 0 0 !important;
-        padding: 0;
-        margin-bottom: 40px;
-        text-align: center;
-        width: 100%;
-        box-shadow: none
-    }
-
-    .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item {
-        border-bottom: none;
-        color: #fff !important;
-        opacity: .7 !important;
-        margin: 10px 0;
-        position: relative;
-        display: block
-    }
-
-    .navbar-nav .dropdown-menu .dropdown-item .menu-page-info {
-        font-size: 16px !important
-    }
-
-    .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item:hover {
-        opacity: .5 !important
-    }
-
-    .navbar-nav .dropdown-menu .dropdown-item .menu-icon {
-        display: none
-    }
-
-    .navbar-nav .dropdown-menu .dropdown-item .menu-page-info p {
-        display: none
-    }
-
-    .navbar-collapse ul {
-        padding: 20px !important
-    }
-
-    .navbar-collapse ul:first-child {
-        padding-bottom: 0 !important
-    }
-
-    .navbar-collapse ul:last-child {
-        padding-top: 0 !important
-    }
-
-    .navbar-collapse ul li a {
-        display: block;
-        margin-bottom: 40px;
-        font-size: 28px
-    }
-
-    .navbar-collapse ul li a.nav-btn {
-        margin-bottom: 0;
-        display: inline-block
-    }
-
-    nav.navbar.sticky-nav li a.nav-btn {
-        background: 0 0
-    }
-
-    .dropdown-toggle::after {
-        display: none !important
-    }
-
-    nav.navbar.sticky-nav .navbar-toggler {
-        border: none
-    }
-
-    body.single nav.navbar li a,
-    nav.navbar.sticky-nav li a {
-        color: #fff !important
-    }
-
-    body.single nav.navbar li a.active,
-    nav.navbar.sticky-nav li a.active {
-        color: #61c6ff !important
-    }
-
-    body.single nav.navbar .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
-    }
-
-    .hero-header {
-        padding: 200px 0
-    }
-
-    h1,
-    h2 {
-        font-size: 36px !important;
-        line-height: 1.2 !important
-    }
-
-    .hero-header p {
-        padding: 0;
-        font-size: 16px;
-        line-height: 1.4;
-        letter-spacing: 0
-    }
-
-    nav.navbar li a.nav-btn {
-        font-size: 16px;
-        padding: 10px 50px !important
-    }
-
-    .hero-header {
-        padding-bottom: 50px
-    }
-
-    .hero-header .partners .partner-logos {
-        flex-wrap: wrap
-    }
-
-    .hero-header .partners .partner-logos li {
-        width: 50%;
-        margin-bottom: 30px
-    }
-
-    .hero-header .partners .partner-logos li:last-child {
-        width: 100%
-    }
-
-    .hero-header .partners .partner-logos li:last-child img {
-        max-width: none
-    }
-
-    .hero-header .partners .partner-logos li img {
-        max-height: 50px
-    }
-
-    .technology .logos li {
-        padding: 0 10px
-    }
-
-    .technology .logos li img {
-        width: 64px;
-        height: 43px
-    }
-
-    .what-we-do .services .service:nth-child(4)::before,
-    .what-we-do .services .service:nth-child(3)::before {
-        display: none;
-    }
-
-    .technology .logos {
-        justify-content: center;
-        flex-wrap: wrap;
-        row-gap: 23px;
-    }
-}
-
 
 /* ////// contact */
 
@@ -3811,3 +3428,389 @@ h2.section-title span {
     opacity: .8
 }
 
+@media only screen and (max-width :1200px) {
+    .hero-header p {
+        padding: 0 120px
+    }
+
+    .case-studies .case-study-preview img {
+        width: 90%
+    }
+}
+
+@media all and (min-width:768px) {
+    .nav-item .dropdown-menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 125%
+    }
+
+    .nav-item .dropdown-menu:before {
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        margin-top: 0;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -o-transition: .2s;
+        transition: all .2s ease
+    }
+
+    .nav-item:hover .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        top: 175%
+    }
+}
+
+@media only screen and (max-width :992px) {
+
+    .hero-header .partners h5:after,
+    .hero-header .partners h5:before {
+        content: none
+    }
+
+    .case-studies {
+        text-align: center
+    }
+
+    .recent-posts .col-lg-4 {
+        margin-bottom: 30px
+    }
+
+    .case-studies .case-study-preview img {
+        /* width: auto */
+    }
+
+    .footer {
+        text-align: center !important
+    }
+
+    .footer ul {
+        justify-content: center;
+        margin-top: 50px
+    }
+
+    .footer ul li:first-child a {
+        margin-left: 0
+    }
+
+    nav.navbar li a {
+        padding: 0 10px !important
+    }
+
+    nav.navbar li a.nav-btn {
+        font-size: 14px;
+        padding: 8px 20px !important
+    }
+
+    .testimonials .col-lg-4 {
+        margin-bottom: 30px
+    }
+
+    .testimonials h2 span:after {
+        content: none
+    }
+
+    .testimonial-slider .slick-dots {
+        margin-top: 20px
+    }
+
+    .pdf-intro .slick-dots {
+        margin: 0
+    }
+
+    .footer ul.social-links {
+        justify-content: center
+    }
+
+    .footer ul.menu {
+        margin-bottom: 30px
+    }
+
+    .footer .wpengine {
+        display: block;
+        margin-bottom: 10px
+    }
+
+    .footer .upcity {
+        display: block;
+        margin-bottom: 50px
+    }
+
+    .footer .sub-footer ul.menu {
+        justify-content: center;
+        margin-top: 10px
+    }
+
+    .footer .sub-footer ul.menu li a {
+        margin: 0 10px
+    }
+
+    .what-we-do .services {
+        padding: 25px 0
+    }
+
+    .what-we-do .services .service {
+        padding: 25px 50px
+    }
+
+    .cta-wrap {
+        padding: 50px 30px
+    }
+}
+
+@media only screen and (max-width :768px) {
+    .navbar .dropdown-menu {
+        display: none;
+        padding: 10px;
+        margin-top: 0;
+        transition: none;
+        width: 100%;
+        background: 0 0
+    }
+
+    .nav-item:hover .dropdown-menu {
+        display: none
+    }
+
+    .navbar-nav .dropdown-menu .nav-item {
+        width: 100%
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item span {
+        justify-content: center
+    }
+
+    .navbar .dropdown {
+        position: relative
+    }
+
+    .dropdown-toggle::after {
+        display: none
+    }
+
+    .navbar-dark .navbar-toggler {
+        border: none
+    }
+
+    .navbar-nav {
+        width: 100%
+    }
+
+    .navbar-collapse {
+        opacity: 0;
+        background: #25344f;
+        position: fixed;
+        text-align: center;
+        width: 100% !important;
+        padding: 0 30px 0 0;
+        left: 0;
+        top: 0;
+        z-index: 9999;
+        min-height: 100vh;
+        display: flex !important;
+        pointer-events: none;
+        flex-direction: column;
+        justify-content: center;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -o-transition: .3s;
+        transition: all .3s ease
+    }
+
+    .navbar-collapse.show {
+        opacity: 1;
+        pointer-events: all;
+        padding: 0 30px
+    }
+
+    .navbar-collapse .navbar-brand {
+        display: block !important;
+        position: absolute;
+        top: 52px;
+        left: 22px
+    }
+
+    .navbar-collapse .navbar-toggler {
+        display: block !important;
+        position: absolute;
+        top: 65px;
+        right: 25px
+    }
+
+    .navbar-collapse .navbar-toggler i {
+        font-size: 32px
+    }
+
+    .navbar-collapse .navbar-nav .dropdown-menu {
+        display: block !important;
+        background: 0 0 !important;
+        padding: 0;
+        margin-bottom: 40px;
+        text-align: center;
+        width: 100%;
+        box-shadow: none
+    }
+
+    .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item {
+        border-bottom: none;
+        color: #fff !important;
+        opacity: .7 !important;
+        margin: 10px 0;
+        position: relative;
+        display: block
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item .menu-page-info {
+        font-size: 16px !important
+    }
+
+    .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item:hover {
+        opacity: .5 !important
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item .menu-icon {
+        display: none
+    }
+
+    .navbar-nav .dropdown-menu .dropdown-item .menu-page-info p {
+        display: none
+    }
+
+    .navbar-collapse ul {
+        padding: 20px !important
+    }
+
+    .navbar-collapse ul:first-child {
+        padding-bottom: 0 !important
+    }
+
+    .navbar-collapse ul:last-child {
+        padding-top: 0 !important
+    }
+
+    .navbar-collapse ul li a {
+        display: block;
+        margin-bottom: 40px;
+        font-size: 28px
+    }
+
+    .navbar-collapse ul li a.nav-btn {
+        margin-bottom: 0;
+        display: inline-block
+    }
+
+    nav.navbar.sticky-nav li a.nav-btn {
+        background: 0 0
+    }
+
+    .dropdown-toggle::after {
+        display: none !important
+    }
+
+    nav.navbar.sticky-nav .navbar-toggler {
+        border: none
+    }
+
+    body.single nav.navbar li a,
+    nav.navbar.sticky-nav li a {
+        color: #fff !important
+    }
+
+    body.single nav.navbar li a.active,
+    nav.navbar.sticky-nav li a.active {
+        color: #61c6ff !important
+    }
+
+    body.single nav.navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+    }
+
+    .hero-header {
+        padding: 143px 0 150px;
+    }
+
+    h1,
+    h2 {
+        font-size: 36px !important;
+        line-height: 1.2 !important
+    }
+
+    .hero-header p {
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.4;
+        letter-spacing: 0
+    }
+
+    nav.navbar li a.nav-btn {
+        font-size: 16px;
+        padding: 10px 50px !important
+    }
+
+    .hero-header {
+        /* padding-bottom: 50px */
+    }
+
+    .image-text-block {
+        padding: 100px 0;
+    }
+
+    .hero-header .partners .partner-logos {
+        flex-wrap: wrap
+    }
+
+    .hero-header .partners .partner-logos li {
+        width: 50%;
+        margin-bottom: 30px
+    }
+
+    .hero-header .partners .partner-logos li:last-child {
+        width: 100%
+    }
+
+    .hero-header .partners .partner-logos li:last-child img {
+        max-width: none
+    }
+
+    .hero-header .partners .partner-logos li img {
+        max-height: 50px
+    }
+
+    .technology .logos li {
+        padding: 0 10px
+    }
+
+    .technology .logos li img {
+        width: 64px;
+        height: 43px
+    }
+
+    .what-we-do .services .service:nth-child(4)::before,
+    .what-we-do .services .service:nth-child(3)::before {
+        display: none;
+    }
+
+    .technology .logos {
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 23px;
+    }
+}
