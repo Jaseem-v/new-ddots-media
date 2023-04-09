@@ -2094,12 +2094,12 @@ a {
 }
 
 .btn-primary {
-    background: #00495c;
+    background: #0088A5;
     color: #fff
 }
 
 .btn-primary:hover {
-    background: #2093d6;
+    background: #00495C;
     color: #fff
 }
 
@@ -2210,7 +2210,7 @@ nav.navbar li a.active {
 nav.navbar li a.nav-btn {
     font-family: Lufga-Bold;
     display: block;
-    background: #00495c;
+    background: #0088A5;
     border-radius: 21px;
     font-size: 16px;
     line-height: 20px;
@@ -2221,7 +2221,7 @@ nav.navbar li a.nav-btn {
 
 nav.navbar li a.nav-btn:hover {
     text-decoration: none;
-    background: #2093d6 !important;
+    background: #00495C !important;
     color: #fff !important;
     opacity: 1
 }
@@ -2267,12 +2267,12 @@ nav.navbar.sticky-nav li a {
 }
 
 nav.navbar.sticky-nav li a.nav-btn {
-    background: #00495c;
+    background: #0088A5;
     color: #fff !important
 }
 
 nav.navbar.sticky-nav li a.nav-btn:hover {
-    background: #00495c;
+    background: #0088A5;
     opacity: .9
 }
 
@@ -2312,7 +2312,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 .navbar-nav .dropdown-menu .dropdown-item {
     align-items: center;
     padding: 0 !important;
-    color: #00495c !important;
+    color: #0088A5 !important;
     background: 0 0 !important;
     display: flex
 }
@@ -2659,7 +2659,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: .2px;
-    color: #00495c
+    color: #0088A5
 }
 
 .recent-posts a.read-more img {
@@ -2707,7 +2707,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 }
 
 .testimonials h2 span {
-    color: #00495c;
+    color: #0088A5;
     position: relative
 }
 
@@ -2799,7 +2799,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 .testimonial-slider .slide .meta a {
     font-size: 16px;
     line-height: 22px;
-    color: #00495c
+    color: #0088A5
 }
 
 .testimonial-slider .slide .meta {
@@ -2837,7 +2837,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 }
 
 .testimonial-slider .slick-dots li.slick-active button {
-    background: #00495c
+    background: #0088A5
 }
 
 .testimonials .slider .slick-dots {
@@ -2894,7 +2894,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 }
 
 .pdf-intro .slick-dots li.slick-active button {
-    background: #00495c
+    background: #0088A5
 }
 
 .seo-results .results-slider .slick-prev {
@@ -3124,7 +3124,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
     font-family: Lufga-Bold;
     font-size: 18px;
     text-transform: uppercase;
-    color: #00495c
+    color: #0088A5
 }
 
 .new-cta h2 {
@@ -3208,7 +3208,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 }
 
 .page-header h1 span {
-    color: #00495c
+    color: #0088A5
 }
 
 .page-header p {
@@ -3265,7 +3265,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 
 .gform_wrapper .gform_fields input:focus,
 .gform_wrapper .gform_fields textarea:focus {
-    border: 2px solid #00495c
+    border: 2px solid #0088A5
 }
 
 .gform_wrapper .gform_footer {
@@ -3279,7 +3279,7 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 
 .gform_wrapper .gform_footer .button {
     font-family: Lufga-Bold;
-    background: #00495c;
+    background: #0088A5;
     color: #fff !important;
     padding: 16px 30px !important;
     border-radius: 37px;
@@ -3394,7 +3394,7 @@ h2.section-title {
 }
 
 h2.section-title span {
-    color: #00495c
+    color: #0088A5
 }
 
 .section-description p {
