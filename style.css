@@ -2501,7 +2501,9 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
 }
 
 .what-we-do .services .service:nth-child(4)::before,
-.what-we-do .services .service:nth-child(3)::before {
+.what-we-do .services .service:nth-child(3)::before,
+.what-we-do .services .service:nth-child(5)::before,
+.what-we-do .services .service:nth-child(6)::before {
     content: '';
     width: 200px;
     height: 1px;
@@ -2519,6 +2521,8 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
     margin-bottom: 20px;
     display: inline-block
 }
+
+
 
 .what-we-do .services .service .icon img {
     width: 50px;
@@ -3812,5 +3816,9 @@ h2.section-title span {
         justify-content: center;
         flex-wrap: wrap;
         row-gap: 23px;
+    }
+
+    .what-we-do .services .service::before {
+        display: none;
     }
 }
