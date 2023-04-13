@@ -3375,11 +3375,25 @@ nav.navbar.sticky-nav li a.nav-btn:hover {
     height: 100%
 }
 
+.template-features .feature-wrapper--horizontal {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 15px 15px;
+    gap: 15px;
+    /* margin-bottom: 15px; */
+}
+
 .template-features .feature-wrapper h3 {
     font-size: 32px;
     line-height: 32px;
     color: #25344f;
     margin: 25px 0 15px
+}
+
+.template-features .feature-wrapper--horizontal h3 {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .template-features .feature-wrapper p {
